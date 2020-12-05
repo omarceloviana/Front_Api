@@ -1,0 +1,21 @@
+.container {
+    max-width: 700px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.formContainer {
+    max-width: 500px;
+    background-color: #ffffffaf;
+    padding: 60px;
+    
+}
+
+.formContainer input {
+    margin: 10px;
+    padding: 8px;
+}
