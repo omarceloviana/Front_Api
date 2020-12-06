@@ -13,6 +13,7 @@ const Index = (dados) => {
     setClientes(response.data);
   }, []);
 
+  //Função POST para inserir dados no arquivo json.
   async function enviarFormulario(e) {
     e.preventDefault();
 
@@ -34,6 +35,7 @@ const Index = (dados) => {
     console.log(response);
   }
 
+    //HTML do formulário
   return (
     <section className={classes.container}>
       <div style={{ textAlign: "center" }}>
